@@ -59,7 +59,6 @@ class WertModule extends React.Component<WertModuleProps, WertModuleState> {
   }
 
   componentWillUnmount() {
-    console.log('unmount');
     this.wertWidget.destroy();
   }
 

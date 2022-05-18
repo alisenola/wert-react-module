@@ -1,0 +1,44 @@
+{
+  "name": "@wert-io/module-react-component",
+  "version": "0.1.0",
+  "description": "WertModule React component",
+  "author": "@wert-io",
+  "main": "dist/wert-module.js",
+  "types": "dist/wert-module.d.ts",
+  "license": "ISC",
+  "dependencies": {
+    "@wert-io/widget-initializer": "^1.2.1",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "rollup": "^2.73.0",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4"
+  },
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "@wert-io/widget-initializer": "^1.2.1"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wert-io/module-react-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wert-io/module-react-component/issues"
+  },
+  "homepage": "https://github.com/wert-io/module-react-component#readme",
+  "keywords": []
+}

@@ -1,6 +1,6 @@
 # Wert Module React component
 
-This is wrapped [Wert initializer helper](https://www.npmjs.com/package/@wert-io/widget-initializer) for React projects.
+This is a wrapped [Wert initializer helper](https://www.npmjs.com/package/@wert-io/widget-initializer) for React projects.
 
 ## Installation
 

@@ -48,6 +48,6 @@ class App extends React.Component {
 }
 ```
 
-Whole list of options you can see [here](https://www.npmjs.com/package/@wert-io/widget-initializer#documentation).
+You can find the Whole list of options [here](https://www.npmjs.com/package/@wert-io/widget-initializer#documentation).
 
-Component reacts on **options.theme** and **options.color_{name}** values change and ignores others.
+Component reacts to **options.theme** and **options.color_{name}** values change and ignores others.
